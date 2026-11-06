@@ -9,3 +9,5 @@
 *.dSYM/
 *.zip
 
+
+.Rhistory
