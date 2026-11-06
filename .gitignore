@@ -1,0 +1,11 @@
+/build*/
+/.cache/
+/.DS_Store
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+*.dSYM/
+*.zip
+
