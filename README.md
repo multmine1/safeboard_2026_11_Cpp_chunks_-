@@ -1,5 +1,7 @@
 # FileByChunks — FileCollector
 
+**GitHub:** [multmine1/safeboard_2026_11_Cpp_chunks_-](https://github.com/multmine1/safeboard_2026_11_Cpp_chunks_-)
+
 **Дата спецификации:** 06.11.2026. **Язык:** C++20. **Сборка:** CMake ≥ 3.25.
 **Тесты:** GoogleTest и CTest. **Целевая ОС:** macOS, также Linux.
 
@@ -98,10 +100,4 @@ mutex и не точный пик собственной памяти FileCollec
 В нормальном конструкторе число workers равно
 `std::thread::hardware_concurrency()` (fallback — 1 при нуле).
 При тестировании разрешена явная настройка числа работников через конструктор.
-
-## Сдача
-
-ZIP: `Владислав_Агибалов_С++.zip` — исходники, CMake, тесты, README.
-В Skillaz отдельно подаётся `Выполнено.txt`, содержащий слово `Выполнено`.
-Бинарные артефакты, сборочные директории и `.git` в ZIP не включать.
 
